@@ -1,0 +1,48 @@
+*{ 
+    margin: 0; 
+    padding: 0;
+}
+.bg-red{
+    background-color: #eb3238;
+}
+.text-aqua{
+    color: #14cdc7;
+}
+.text-red{
+    color: #eb3238;
+}
+.card-img-overlay{
+    margin-top: 60%;
+}
+.h6{
+   margin-bottom: 0px 0px 0px; 
+}
+#red{
+    color: white;
+}
+#red:hover{
+    color: black;
+}
+#tarj{
+    color: black !important;
+    text-decoration: none !important;
+}
+#tarj:hover{
+    color: #eb3238 !important;
+}
+#submit{
+   
+    color: white;
+    background-color: transparent;
+}
+#submit:hover{
+    background-color: white;
+    color: #eb3238;
+}
+#carrusel{
+    height: max-content !important;
+}
+#texto-justificado{
+    text-align:justify;
+}
+   
