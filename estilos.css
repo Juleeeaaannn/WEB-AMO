@@ -43,6 +43,5 @@
     height: max-content !important;
 }
 #texto-justificado{
-    text-align:justify;
+    text-align:center;
 }
-   
