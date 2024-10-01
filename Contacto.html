@@ -112,23 +112,20 @@
                     <h3 class="text-white text-center ">Envíanos tu reseña</h3>
                     <form action="http://web-hrl.net/temp/practica_form.php" method="post">
                         <div class="mb-3 fw-semibold">
-                            <label for="exampleFormControlInput1" class="form-label text-white">Nombre y
+                            <label for="nombre" class="form-label text-white">Nombre y
                                 Apellido</label>
-                            <input type="email" class="form-control" id="exampleFormControlInput1"
-                                placeholder="Susana Gimenez">
+                            <input type="text" id="nombre" name="nombre" class="form-control" placeholder="Susana Gimenez">
                         </div>
                         <div class="mb-3 fw-semibold">
-                            <label for="exampleFormControlInput1" class="form-label text-white">Correo
+                            <label for="email" class="form-label text-white">Correo
                                 Electronico</label>
-                            <input type="email" class="form-control" id="exampleFormControlInput1"
-                                placeholder="nombre@ejemplo.com">
+                            <input type="email" id="email" name="email" class="form-control" placeholder="nombre@ejemplo.com">
                         </div>
                         <div class="mb-3 fw-semibold">
-                            <label for="exampleFormControlTextarea1" class="form-label text-white">Mensaje</label>
-                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
-                                placeholder="Me encanto su pagina web! <3"></textarea>
+                            <label for="text" class="form-label text-white">Mensaje</label>
+                            <textarea class="form-control" rows="3" id="text" name="text" placeholder="Me encanto su pagina web! <3"></textarea>
                         </div>
-                        <button id="submit" type="submit" class="btn btn-light">Enviar</button>
+                        <input id="submit" type="submit" class="btn btn-light" value="Enviar">
                     </form>
                 </div>
             </div>
@@ -138,7 +135,10 @@
                 <h3 class="text-white text-center pb-3 ">Ubicacion de nuestro local</h3>
                 <div class="row text-center">
                     <div class="col-12">
-                        <iframe class="w-100" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d568.8906593733983!2d-68.5250960583283!3d-31.53647434768685!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9681402822198a67%3A0x1ca9129927e9a26e!2sRivadavia%2068%2C%20J5402%20San%20Juan!5e0!3m2!1ses-419!2sar!4v1727806214350!5m2!1ses-419!2sar" style="border:0; min-height: 300px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <iframe class="w-100"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d568.8906593733983!2d-68.5250960583283!3d-31.53647434768685!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9681402822198a67%3A0x1ca9129927e9a26e!2sRivadavia%2068%2C%20J5402%20San%20Juan!5e0!3m2!1ses-419!2sar!4v1727806214350!5m2!1ses-419!2sar"
+                            style="border:0; min-height: 300px;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                 </div>
             </div>
@@ -163,7 +163,8 @@
             <div class="row text-center">
                 <p>
                     &copy; Todos los derechos reservados AMO 2024 <br>
-                    pagina creada por <a class="text-white" href="https://www.linkedin.com/in/joaquin-molina-918771200/">Joaquin Molina</a>
+                    pagina creada por <a class="text-white"
+                        href="https://www.linkedin.com/in/joaquin-molina-918771200/">Joaquin Molina</a>
                 </p>
             </div>
         </div>
