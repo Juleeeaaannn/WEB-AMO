@@ -39,9 +39,12 @@
     background-color: white;
     color: #eb3238;
 }
-#carrusel{
-    height: max-content !important;
-}
 #texto-justificado{
     text-align:center;
 }
+@media only screen and (min-width: 992px) {
+    body .carro { 
+        width: 65%;
+    }
+  }
+    
